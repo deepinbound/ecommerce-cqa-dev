@@ -38,14 +38,14 @@ const OrderSummary = (props) => {
           <FormInputField
             value={coupon}
             handleChange={(_, coupon) => setCoupon(coupon)}
-            id={'couponInput'}
+            id={'ccField'}
             icon={'arrow'}
           />
           <span>Gift Card</span>
           <FormInputField
             value={giftCard}
             handleChange={(_, giftCard) => setGiftCard(giftCard)}
-            id={'couponInput'}
+            id={'gcField'}
             icon={'arrow'}
           />
         </div>
