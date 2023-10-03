@@ -36,6 +36,7 @@ const OrderSummary = (props) => {
         <div className={styles.couponContainer}>
           <span>Coupon Code</span>
           <FormInputField
+            name={'couponInput'}
             value={coupon}
             handleChange={(_, coupon) => setCoupon(coupon)}
             id={'ccField'}
@@ -43,6 +44,7 @@ const OrderSummary = (props) => {
           />
           <span>Gift Card</span>
           <FormInputField
+            name={'giftCardInput'}
             value={giftCard}
             handleChange={(_, giftCard) => setGiftCard(giftCard)}
             id={'gcField'}
