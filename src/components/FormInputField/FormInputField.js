@@ -19,6 +19,7 @@ const FormInputField = React.forwardRef((props, ref) => {
     error,
     required,
     icon,
+    name = null,
   } = props;
 
   return (
@@ -31,7 +32,7 @@ const FormInputField = React.forwardRef((props, ref) => {
       {(type === 'text' || type === 'input') && (
         <input
           id={id}
-          name={id}
+          name={(name !== null) ? name : id}
           type="text"
           value={value}
           pattern={pattern}
