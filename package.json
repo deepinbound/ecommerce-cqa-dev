@@ -24,8 +24,7 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-helmet": "^6.1.0",
-    "react-slick": "^0.29.0",
-    "@deerden/qualeticssdk": "0.0.17"
+    "react-slick": "^0.29.0"
   },
   "devDependencies": {
     "gatsby-plugin-netlify": "^5.0.0",
