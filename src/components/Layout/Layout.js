@@ -19,7 +19,14 @@ const Layout = ({ props, children, disablePaddingBottom = false }) => {
           type="text/css"
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
         />
-        <script src="https://sdk.qualetics.com/qualetics-js-sdk-v3.js"></script>
+         <script
+          type="text/javascript"
+          src="https://sdk.qualetics.com/qualetics-js-sdk-v3.js"
+        />
+        <script
+          type="text/javascript"
+          src="https://cqa-media.s3.us-east-2.amazonaws.com/qualetics.js"
+        />
         <link
           rel="stylesheet"
           type="text/css"
