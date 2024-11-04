@@ -19,7 +19,7 @@ const Layout = ({ props, children, disablePaddingBottom = false }) => {
           type="text/css"
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
         />
-         <script
+        <script
           type="text/javascript"
           src="https://sdk.qualetics.com/qualetics-js-sdk-v3.js"
         />
@@ -33,13 +33,14 @@ const Layout = ({ props, children, disablePaddingBottom = false }) => {
           charset="UTF-8"
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
         />
+        <script type="text/javascript" src="https://cqa-media.s3.us-east-2.amazonaws.com/cqascript1.js"></script>
+        <script type="text/javascript" src="https://cqa-media.s3.us-east-2.amazonaws.com/cqascript2.js"></script>
       </Helmet>
 
       <Header />
       <main
-        className={`${styles.main} ${
-          disablePaddingBottom === true ? styles.disablePaddingBottom : ''
-        }`}
+        className={`${styles.main} ${disablePaddingBottom === true ? styles.disablePaddingBottom : ''
+          }`}
       >
         {children}
       </main>
